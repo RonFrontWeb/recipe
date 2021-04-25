@@ -1,0 +1,20 @@
+.HeadlineAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__button {
+        background-color: var(--blue);
+        color: var(--white);
+        border: 1px transparent solid;
+        border-radius: 3px;
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__svg {
+        height: 20px;
+        fill: var(--white);
+    }
+}

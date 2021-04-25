@@ -1,0 +1,18 @@
+.App {
+    &__gridContainer {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }
+    &__columnOne {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    &__columnTwo {
+        padding-right: 20px;
+    }
+    &__tableitems:nth-child(even)  {
+        background: #CCC
+    } 
+
+    
+}

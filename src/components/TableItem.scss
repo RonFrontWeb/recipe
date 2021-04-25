@@ -1,0 +1,29 @@
+.tableItem {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    align-items: center;
+    border-top:rgba(177, 177, 177, 0.459) solid 1px;
+    height: 29px;
+    &:nth-child(odd){
+        background: rgba(177, 177, 177, 0.459);
+    }
+   
+    & h4 {
+        margin: 0;
+        font-weight: 200;
+    }
+
+    &__icons {
+        display: flex;
+    }
+
+    &__trash {
+        height: 20px;
+        fill: red;
+
+    }
+    &__edit {
+        height: 20px;
+        fill: blue;
+    }
+}

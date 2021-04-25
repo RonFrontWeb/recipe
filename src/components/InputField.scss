@@ -1,0 +1,41 @@
+.formRecipe {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+ 
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box label {
+    padding-bottom: 10px;
+  }
+  &__box input {
+    padding-bottom: 10px;
+  }
+  &__boxMsg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__boxMsg label{
+    padding-bottom: 10px;
+  }
+  
+
+  &__boxbutton {
+    float: right;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border: 5px double black;
+    border-radius: 2px;
+  }
+
+}

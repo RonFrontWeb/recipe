@@ -1,0 +1,16 @@
+.SideTopNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    & svg {
+        padding-right: 10px;
+        height: 20px;
+        fill: var(--gray);
+    }
+    &:hover svg {
+        fill: var(--black);
+    }
+}
