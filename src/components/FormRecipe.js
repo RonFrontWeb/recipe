@@ -4,7 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from 'react';
 
 
-function FormRecipe() {
+function FormRecipe() { 
 
 
   const [titleValue, setTitleValue] = useState("PEKDUCK");
